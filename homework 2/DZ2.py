@@ -12,3 +12,4 @@ try:
 except:
     print('Введите число!')
 
+print('check')
