@@ -11,5 +11,3 @@ try:
          print('Положительное')
 except:
     print('Введите число!')
-
-print('check')
