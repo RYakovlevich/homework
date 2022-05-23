@@ -8,6 +8,7 @@ try:
     elif float(a) == 0:
         print('Нуль')
     else:
-         print('Положительное')
+         print('gjkj;')
 except:
     print('Введите число!')
+print('123')
