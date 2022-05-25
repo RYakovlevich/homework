@@ -1,0 +1,10 @@
+a = input('Введите 1 строку ')
+b = input('Введите 2 строку ')
+c = input('Введите 3 строку ')
+d = input('Введите 4 строку ')
+e=open("test.txt", 'w')
+e.write(a+'\n'+b+'\n')
+e.close()
+with open('test.txt', 'a') as file:
+    file.write(c+'\n'+d+'\n')
+    file.close()
